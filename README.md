@@ -55,4 +55,3 @@ PubSubClient (lekki klient MQTT)
 📝 Oświadczenie
 Oprogramowanie to zostało stworzone na drodze inżynierii odwrotnej (Reverse Engineering) protokołu rozgłoszeniowego i nie jest oficjalnym produktem marki Qoltec. Używasz na własną odpowiedzialność.
 
-*** Gdy wrzucisz kod na GitHub, taki plik README sprawi, że projekt będzie wyglądał bardzo profesjonalnie i ułatwi ewentualnym innym entuzjastom Off-Gridu wykorzystanie Twojego rozwiązania!

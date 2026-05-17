@@ -5,22 +5,19 @@
 #include <NimBLEDevice.h>
 #include <time.h> // Biblioteka do obsługi czasu
 
-// --- KONFIGURACJA WI-FI ---
-//const char* ssid = "DariuszFly";
-//const char* password = "anuLRrats793%";
-const char* ssid = "Orange Airbox-9CB8";
-const char* password = "26200600";
-const int wifi_channel = 1;
-//const uint8_t bssid[] = {0x0A, 0xA7, 0xC0, 0x65, 0x46, 0x12};  
-const uint8_t bssid[] = {0x26, 0x7F, 0x3C, 0xA9, 0x9C, 0xB9};   // AirBox 24:7F:3C:A9:9C:B8
+// 1. DANE SIECI WI-FI (Zalecane podanie BSSID dla błyskawicznego startu)
+const char* ssid = "TWOJA_SIEC";
+const char* password = "TWOJE_HASLO";
+const int wifi_channel = 1; 
+const uint8_t bssid[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; 
 
-// --- KONFIGURACJA MQTT ---
-//const char* mqtt_server = "192.168.33.23"; // Aitbox ??
-//const char* mqtt_server = "DarekFly.local"; // Aitbox ??
-const char* mqtt_server = "Pi4-EPWC.local"; // = HOSTNAME.local
-const char* mqtt_user = "darekfly";
-const char* mqtt_pass = "DariuszFly%";
-const int   mqtt_port = 1883;
+// 2. DANE BROKERA MQTT
+const char* mqtt_server = "moj-serwer.local"; // lub adres IP np. 192.168.33.23
+const char* mqtt_user = "user";
+const char* mqtt_pass = "haslo";
+
+// 3. ADRES MAC TWOJEGO REGULATORA QOLTEC
+const char* targetMacAddress = "dc:32:62:72:60:e6";
 
 // --- KONFIGURACJA CZASU (NTP) ---
 const char* ntpServer = "pool.ntp.org";

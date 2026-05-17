@@ -1,0 +1,18 @@
+# 1. Ignoruj prywatne pliki z hasłami (NAJWAŻNIEJSZE!)
+login.h
+login.cpp
+secrets.h
+secrets.cpp
+
+# 2. Ignoruj foldery kompilacji (zajmują dużo miejsca i nie są potrzebne na GitHubie)
+build/
+.pio/
+*.bin
+*.elf
+*.hex
+
+# 3. Ignoruj pliki systemowe i tymczasowe
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp

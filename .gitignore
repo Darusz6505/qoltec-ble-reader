@@ -3,6 +3,8 @@ login.h
 login.cpp
 secrets.h
 secrets.cpp
+AirBox.cpp
+AirBox.h
 
 # 2. Ignoruj foldery kompilacji (zajmują dużo miejsca i nie są potrzebne na GitHubie)
 build/
